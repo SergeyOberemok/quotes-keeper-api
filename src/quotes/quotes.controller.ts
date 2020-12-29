@@ -12,7 +12,7 @@ import { CreateQuoteDto } from './dto/create-quote.dto';
 import { UpdateQuoteDto } from './dto/update-quote.dto';
 import { Quote } from './entities';
 
-@Controller('quotes')
+@Controller('api/quotes')
 export class QuotesController {
   constructor(private readonly quotesService: QuotesService) {}
 
